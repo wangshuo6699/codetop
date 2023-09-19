@@ -7,6 +7,8 @@ class Solution(object):
         result = []
         nums.sort()
         for i in range(len(nums)-2):
+            if nums[i]>0:
+                return []
             if i>0 and nums[i]==nums[i-1]:
                 continue
             left = i+1
