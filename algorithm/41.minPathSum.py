@@ -16,5 +16,5 @@ class Solution(object):
         return dp[-1][-1]
 
 solution = Solution()
-res = solution.minPathSum(grid = grid = [[1,2,3],[4,5,6]])
+res = solution.minPathSum(grid = [[1,2,3],[4,5,6]])
 print(res)
